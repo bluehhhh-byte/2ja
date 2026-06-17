@@ -22,12 +22,12 @@
 ## 터미널로 업로드
 
 ```bash
-unzip fta-kkoong-ai-helper-v0.9.3-github-ready.zip
+unzip fta-kkoong-ai-helper-v0.9.4-github-ready.zip
 cd fta-kkoong-ai-helper-github-ready
 
 git init
 git add .
-git commit -m "Add kkoong finance investment analyst AI helper v0.9.3"
+git commit -m "Add kkoong finance investment analyst AI helper v0.9.4"
 git branch -M main
 git remote add origin https://github.com/YOUR_ID/YOUR_REPO.git
 git push -u origin main

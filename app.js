@@ -13784,7 +13784,6 @@
       <section class="card">
         <p class="eyebrow">랜덤 문제 기능</p>
         <h2>문제 풀기</h2>
-        <p class="note">문제 입력 모드는 제거했습니다. 이제 A~H 문제은행, 랜덤 풀이, 오답 복습, 실전 모의고사만 사용합니다.</p>
         <div class="actions two" style="margin-top:12px;">
           <button class="primary" data-action="start-practice" data-mode="today" data-count="10" type="button">추천 10문제</button>
           <button class="secondary" data-action="start-practice" data-mode="due" data-count="20" type="button">오답 복습</button>
