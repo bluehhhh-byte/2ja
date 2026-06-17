@@ -1,6 +1,6 @@
 {
-  "name": "금투분석사 개인 오답회수기",
-  "short_name": "금투분석사",
+  "name": "우리 사랑하는 꿍꿍이의 금투분석사 AI 학습도우미",
+  "short_name": "꿍꿍이 금투AI",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f7fb",
