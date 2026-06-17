@@ -1,0 +1,15 @@
+{
+  "name": "금투분석사 개인 오답회수기",
+  "short_name": "금투분석사",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

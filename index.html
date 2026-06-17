@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f5f7fb" />
+  <title>금투분석사 개인 오답회수기</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app-shell">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">개인용 모바일 학습 도구</p>
+        <h1>금투분석사 오답회수기</h1>
+      </div>
+      <div class="header-actions">
+        <button id="appTimerToggle" class="ghost small timer-toggle" data-action="toggle-app-timer" type="button" aria-label="타이머 시작 또는 일시정지">⏱ 120:00</button>
+        <button id="appTimerReset" class="ghost small timer-reset" data-action="reset-app-timer" type="button" aria-label="타이머 초기화">Reset</button>
+        <button id="themeToggle" class="ghost small" data-action="toggle-theme" type="button">다크</button>
+        <button id="installBtn" class="ghost small hidden" type="button">설치</button>
+      </div>
+    </header>
+
+    <main id="view" class="view" aria-live="polite"></main>
+
+    <nav class="tabbar" aria-label="주요 메뉴">
+      <button class="tab active" data-tab="home" type="button">홈</button>
+      <button class="tab" data-tab="quiz" type="button">풀기</button>
+      <button class="tab" data-tab="wrong" type="button">오답</button>
+      <button class="tab" data-tab="mock" type="button">모의</button>
+      <button class="tab" data-tab="settings" type="button">설정</button>
+    </nav>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
